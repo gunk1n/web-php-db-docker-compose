@@ -1,86 +1,22 @@
-<p align="center">
-  <a href="https://gunk1n.pro/">
-    <img src="https://avatars.githubusercontent.com/u/32822284?v=4" alt="Logo" width=72 height=72>
-  </a>
+# Goal
+The goal of this repo is to setup a local server for PHP development, in combination with MariaDB and PHP. We'll be using [Docker](https://www.docker.com/ "Dockers Homepage") for this.
 
-  <h3 align="center">_logo_</h3>
+# Installation
+## Docker
+* Download Docker at https://www.docker.com/get-started and select Intel or Mac chip
+* Open the dmg file en follow the instructions to install Docker on your machine.
 
-  <p align="center">
-    _description_
-    <br>
-    <a href="https://github.com/gunk1n/_report bug_/issues">_report bug_</a>
-     · 
-    <a href="https://github.com/gunk1n/_wiki_/wiki">_wiki_</a>
-  </p>
-</p>
+## Web 2 server installation
+With Docker you can setup different "containers" to run specific stacks on your machine.
+* Download this project at https://github.com/devinekask/web2-docker/archive/main.zip
+* Extract the zip file into the folder where you want to keep all your files for this course
+* You'll see a folder called `docker` and a folder called `www`. Create an additional folder called `db` in the same location.
+* Right click on the `start` file and choose `open`. You might get a notification the file isn't from the App Store. You may ignore this and open the file.
+* Your Terminal should open and execute a few commands. The very first time this might take a couple of minutes.
 
+## Web 2 server usage
+Once the server is running (using the start script), you can use the server as follows:
+* Open your browser and navigate to http://localhost.  You should see an overview of your PHP installation.
+* All files and folders inside of the [www/html](www/html) folder are accessible through http://localhost
+* You can shut down the server by opening the `stop` script.
 
-## Table of contents
-
-- [Quick start](#quick-start)
-- [Status](#status)
-- [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Contributing](#contributing)
-- [Creators](#creators)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
-
-
-## Quick start
-
-Some text
-
-- Instruction 1
-- Instruction 2
-- Instruction 3
-
-## Status
-
-Here goes all the budgets
-
-## What's included
-
-Some text
-
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
-
-## Bugs and feature requests
-
-Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/gunk1n/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/gunk1n/issues/new).
-
-- BUG_REPORT.md
-- FEATURE_REQUEST.md
-
-## Contributing
-
-Please read through our [contributing guidelines](https://github.com/gunk1n/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
-
-Editor preferences are available in the [editor config](https://github.com/gunk1n/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
-
-## Creators
-
-**Creator 1**
-
-- <https://github.com/gunk1n>
-
-## Thanks
-
-Some Text
-
-## Copyright and license
-
-Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://github.com/gunk1n/blob/master/LICENSE).
-
-Enjoy :metal:
